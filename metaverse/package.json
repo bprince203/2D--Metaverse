@@ -1,6 +1,10 @@
 {
   "name": "metaverse",
   "private": true,
+  "workspaces":[
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -18,3 +22,5 @@
     "node": ">=18"
   }
 }
+
+
